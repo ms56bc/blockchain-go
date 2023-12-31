@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/ms56bc/blockchain-go/server/model"
+	"github.com/ms56bc/blockchain-go/pkg/server/model"
 	"math/rand"
 	"strings"
 )

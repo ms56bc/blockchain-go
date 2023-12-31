@@ -5,3 +5,5 @@ Blockchain is a distributed ledger of transactions that is replicated across mul
 
 
 [Proof of work](/docs/ProofOfWork.md)
+
+[Peer Discovery](/docs/PeerDiscovery.md)

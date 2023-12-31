@@ -1,7 +1,7 @@
 package server
 
 import (
-	"github.com/ms56bc/blockchain-go/server/model"
+	"github.com/ms56bc/blockchain-go/pkg/server/model"
 )
 
 type BlockchainServer interface {
@@ -51,3 +51,6 @@ func (bc *BlockchainProofOfWork) validate() bool {
 	}
 	return true
 }
+
+// write docs for this code block
+// The code
