@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+option go_package = "pkg/server/pd";
+
+message NodeInfo {
+	string node_id = 1;
+	string ip_address = 2;
+}
+
+message NodeUpdate {
+	enum OperationType {
+		ADD = 0;
+		REMOVE = 1;
+	}
+
+	OperationType operation = 1;
+	NodeInfo node_info = 2;
+	string source_id = 3;
+}
